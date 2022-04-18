@@ -9,7 +9,7 @@
 </head>
 <body>
   <div id="app">
-    <button id="btn" v-on:click="clickHandler('Vue.js!')">
+    <button id="btn" v-on:click="clickHandler($event, 'Vue.js!')">
       Click!
     </button>
     <p>{{ message }}</p>
